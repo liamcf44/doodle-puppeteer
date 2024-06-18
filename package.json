@@ -1,0 +1,27 @@
+{
+  "name": "doodle-puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "yarn run compile",
+    "pretest": "yarn run compile",
+    "posttest": "yarn run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "gts": "^5.3.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "gts": "^5.3.1"
+  }
+}
